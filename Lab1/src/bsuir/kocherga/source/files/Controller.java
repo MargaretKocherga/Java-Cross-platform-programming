@@ -1,4 +1,4 @@
-package bsuir.KochergaMargarita.sourceFiles;
+package bsuir.kocherga.source.files;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
@@ -16,7 +16,7 @@ public class Controller implements Initializable {
     public Label label;
     public TextField numberTextField;
 
-    int number = -1;
+    private int number = -1;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
