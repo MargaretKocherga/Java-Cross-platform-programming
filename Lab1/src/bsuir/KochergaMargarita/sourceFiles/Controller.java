@@ -1,4 +1,4 @@
-package bsuir.KochergaMargarita;
+package bsuir.KochergaMargarita.sourceFiles;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;

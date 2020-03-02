@@ -1,4 +1,4 @@
-package bsuir.KochergaMargarita;
+package bsuir.KochergaMargarita.sourceFiles;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
