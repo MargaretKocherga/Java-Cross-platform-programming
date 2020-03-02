@@ -1,4 +1,4 @@
-package sample;
+package bsuir.KochergaMargarita;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

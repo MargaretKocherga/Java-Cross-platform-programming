@@ -1,4 +1,4 @@
-package sample;
+package bsuir.KochergaMargarita;
 
 import java.util.Random;
 

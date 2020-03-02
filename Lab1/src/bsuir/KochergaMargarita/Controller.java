@@ -1,4 +1,4 @@
-package sample;
+package bsuir.KochergaMargarita;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
