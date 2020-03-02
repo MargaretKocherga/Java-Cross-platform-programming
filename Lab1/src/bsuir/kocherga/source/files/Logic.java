@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Logic{
 
-    static int newRandomNumber(int border) {
+    static public int newRandomNumber(int border) {
         int number = 0;
         Random rand = new Random();
         number = rand.nextInt(border);
@@ -12,7 +12,7 @@ public class Logic{
         return number;
     }
 
-    static String checkNumber(String text, int number) {
+    static public String checkNumber(String text, int number) {
         if (number == -1) {
             return "Нажмите на кнопку \"Новое\"";
         } else if (!text.matches("\\d+")) {
