@@ -13,6 +13,7 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Угадай число!");
         primaryStage.setScene(new Scene(root, 300, 300));
+        primaryStage.setResizable(false);
         primaryStage.show();
     }
 

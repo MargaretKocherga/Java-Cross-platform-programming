@@ -24,19 +24,7 @@ public class Controller implements Initializable {
     }
 
     public void onGuessButtonClicked(ActionEvent actionEvent) {
-        if (number == -1) {
-            label.setText("Нажмите на кнопку \"Новое\"");
-        } else if (!numberTextField.getText().matches("\\d+")) {
-            label.setText("Пожалуйста, введите\n положительное число.");
-        } else if (Integer.parseInt(numberTextField.getText()) > number) {
-            label.setText("Ваше число больше загаданного.");
-        } else if (Integer.parseInt(numberTextField.getText()) < number) {
-            label.setText("Ваше число меньше загаданного.");
-        } else if (Integer.parseInt(numberTextField.getText()) == number) {
-            label.setText("Поздравляю! Вы угадали число!\n" +
-                    "Чтобы сгенерировать новое число,\n нажмите \"Новое\"");
-        }
-
+        label.setText(Logic.checkNumber(numberTextField.getText(), number));
     }
 
     public void onNewButtonClicked(ActionEvent actionEvent) {
