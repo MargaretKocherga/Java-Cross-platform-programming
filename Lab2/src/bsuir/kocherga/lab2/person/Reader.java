@@ -1,15 +1,21 @@
-package sample;
+package bsuir.kocherga.lab2.person;
 
-import java.util.ArrayList;
-import java.util.List;
+import bsuir.kocherga.lab2.book.Book;
 
-public class Reader extends Person{
+public class Reader extends Person {
+    protected Boolean isCritic = false;
 
-    static protected List<Reader> readersList = new ArrayList<Reader>();;
+    public Reader() {
+        super();
+    }
 
     public Reader(String name) {
         super(name);
-        System.out.println("Reader" + name + " created!");
+        System.out.println("Reader " + name + " created!");
+    }
+
+    public Boolean getIsCritic() {
+        return isCritic;
     }
 
     public void readBook(Book book) {

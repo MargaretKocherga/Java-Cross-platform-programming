@@ -1,19 +1,20 @@
-package sample;
+package bsuir.kocherga.lab2.book;
 
-import java.util.ArrayList;
-import java.util.List;
-
-public class Book {
+public abstract class Book {
     private String name;
     private String author;
     private Integer pagesCount;
-    static protected List<Book> booksList = new ArrayList<Book>();;
+
+    public Book() {
+        name = "";
+        author = "";
+        pagesCount = 0;
+    }
 
     public Book (String author, String name, Integer pagesCount) {
         this.author = author;
         this.name = name + " (" + author + ")";
         this.pagesCount = pagesCount;
-        System.out.println("The book \"" + name + "\" with " + pagesCount + " pages created!");
     }
 
     public String getName() {

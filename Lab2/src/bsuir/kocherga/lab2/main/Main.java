@@ -1,4 +1,4 @@
-package sample;
+package bsuir.kocherga.lab2.main;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
